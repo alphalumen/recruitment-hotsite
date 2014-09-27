@@ -68,7 +68,7 @@
 				margin-bottom: 50px;
 			}
 
-			p {
+			> p {
 				line-height: 2;
 			}
 
@@ -80,8 +80,48 @@
 			}
 
 			.team-wrapper {
-				.team-member {
+				margin-top: 50px;
 				
+				.team-member {
+					text-align: center;
+					position: relative;
+					padding: 0 30px;
+					height: 120px;
+					margin: 30px 0;
+					
+					.member-image {
+						height: 120px;
+						width: 120px;
+						border-radius: 100%;
+						right: 50%;
+						position: absolute;
+					}
+
+					.member-content {
+						background-color: #016b5c;
+						color: #ffffff;
+						width: 200px;
+						padding: 10px 20px;
+						text-align: left;
+						position: absolute;
+						left: 50%;
+						top: 50%;
+						margin-left: -30px;
+						-ms-transform: translateY(-50%);
+    					-webkit-transform: translateY(-50%); 
+						transform: translateY(-50%);
+
+						h4 {
+							font-size: 16px;
+							margin: 0;
+						}
+
+						p {
+							margin: 0;
+							font-weight: 100;
+							margin-top: 5px;	
+						}
+					}
 				}
 			}
 		}
