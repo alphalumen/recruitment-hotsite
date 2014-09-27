@@ -1,5 +1,44 @@
-.home {
-	.subscribe {
+.page-wrapper {
+	background: url(../images/background-top.png);
+}
+
+.header-top {
+	min-height: 128px;
+}
+
+.header-logo {
+	margin-top: 42px;
+}
+
+.header-menu {
+	> ul {
+		list-style-type: none;
+		
+		> li {
+			color: white;
+			padding-top: 55px;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-family: "Proxima Nova Regular";
+			font-size: 18px;
+			display: inline-block;
+
+			&.active {
+				padding-top: 55px;
+				border-top: 5px solid #f16423;
+			}
+		}
+	}
+}
+
+.home-carousel {
+	background-color: transparent;
+}
+
+.home-container {
+	background-color: white;
+
+	.subscribe-container {
 		border-bottom: 1px solid #e5e5e5;
 		padding: 25px 0;
 		color: #808180;
@@ -72,3 +111,30 @@
 		}
 	}
 }
+
+.carousel-container {
+	background: url(../images/banner.png) no-repeat;
+	position: relative;
+	width: 100%;
+	height: 453px;
+	margin-bottom: 43px;
+}
+
+.carousel-text {
+	position: absolute;
+	width: 50%;
+	right: 0px;
+	margin-top: 125px;
+
+	> h1 {
+		color: white;
+		font-size: 25px;
+		font-family: "Proxima Nova Regular";
+
+		.strong {
+			font-size: 40px;
+			font-family: "Chaparral Pro Bold Italic";
+		}
+	}
+}
+
