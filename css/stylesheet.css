@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.eot');
+    src: url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.eot') format('embedded-opentype'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.ttf') format('truetype'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.svg#ProximaNovaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Chaparral Pro Bold Italic';
+    src: url('../fonts/6286668276.eot');
+    src: url('../fonts/6286668276.eot') format('embedded-opentype'),
+         url('../fonts/6286668276.woff2') format('woff2'),
+         url('../fonts/6286668276.woff') format('woff'),
+         url('../fonts/6286668276.ttf') format('truetype'),
+         url('../fonts/6286668276.svg#ChaparralProBoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'Chaparral Pro Regular';
+    src: url('../fonts/7759964207.eot');
+    src: url('../fonts/7759964207.eot') format('embedded-opentype'),
+         url('../fonts/7759964207.woff2') format('woff2'),
+         url('../fonts/7759964207.woff') format('woff'),
+         url('../fonts/7759964207.ttf') format('truetype'),
+         url('../fonts/7759964207.svg#ChaparralProRegular') format('svg');
+}
+
