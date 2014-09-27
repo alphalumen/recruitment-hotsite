@@ -1,1 +1,74 @@
+.home {
+	.subscribe {
+		border-bottom: 1px solid #e5e5e5;
+		padding: 25px 0;
+		color: #808180;
 
+		p {
+			margin: 0;
+		}
+
+		button {
+			background-color: #f06423 !important;
+			border: none;
+			float: right;
+			outline: none !important;
+			padding: 15px 30px;
+		}
+	}
+
+	.main-content {
+		color: #58595b;
+		padding: 40px 0;
+
+		.add-content {
+			margin-bottom: 60px;
+			
+			h2 {
+				color: #f16423;
+				margin-bottom: 50px;
+			}
+
+			p {
+				line-height: 2;
+			}
+
+			img {
+				&.full-width {
+						width: 100%;
+						margin-top: 60px;	
+				}
+			}
+
+			.team-wrapper {
+				.team-member {
+				
+				}
+			}
+		}
+	}
+}
+
+.site-footer {
+	border-bottom: 5px solid #f06423;
+	background-color: #ffffff;
+	padding: 50px 0;
+
+	.content {
+		color: #dcdcdc;
+	}
+
+	.social {
+		
+		.contact {
+			background-color: #016b5c;
+			color: #ffffff;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			width: 40px;
+			float: right;
+			margin-right: 10px;
+		}
+	}
+}

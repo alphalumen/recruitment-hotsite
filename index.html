@@ -3,21 +3,44 @@ layout: default
 ---
 
 <div class="home">
+	<div class="subscribe"> 
+		<div class="container">
+			<div class="col-xs-8">
+				<p>Mauris fermentum libero quis felis pellentesque vulputate. </p>
+				<p>Mauris cursus turpis sapien, ut aliquet lectus iaculis </p>
+			</div>
+			<div class="col-xs-4">
+				<button type="button" class="btn btn-primary btn-lg">Inscreva-se</button>
+			</div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="container">
+			<div class="col-xs-12 add-content">
+				<h2>O Instituto</h2>
+				<p>O Instituto lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac gravida odio. Fusce lacinia enim dolor, non maximus ante ultricies quis. Aenean malesuada sed velit ac volutpat. In nec congue purus. Donec suscipit orci id libero tempor, non dictum quam interdum. Nullam vel justo vel nisi malesuada ultrices. Mauris mattis finibus ex eu commodo. Suspendisse consequat ex vel sagittis pharetra. Maecenas sit amet elementum massa. Aenean malesuada sed velit ac volutpat. In nec congue purus. Donec suscipit orci id libero tempor, non dictum quam interdum. Nullam vel justo vel nisi malesuada ultrices. Mauris mattis finibus ex eu commodo. Suspendisse consequat ex vel sagittis pharetra. Maecenas sit amet elementum massa. In hac habitasse platea dictumst.</p>
+				<img class="full-width" src="{{ site.baseurl }}/images/o-instituto.png"/>
+			</div>
 
-  <h1 class="page-heading">Posts</h1>
+			<div class="col-xs-12 add-content">
+				<h2>Nossa proposta</h2>
+				<p>Nossa proposta lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac gravida odio. Fusce lacinia enim dolor, non maximus ante ultricies quis. Aenean malesuada sed velit ac volutpat. In nec congue purus. Donec suscipit orci id libero tempor, non dictum quam interdum. Nullam vel justo vel nisi malesuada ultrices. Mauris mattis finibus ex eu commodo. Suspendisse consequat ex vel sagittis pharetra. Maecenas sit amet elementum massa. Aenean malesuada sed velit ac volutpat. In nec congue purus. Donec suscipit orci id libero tempor, non dictum quam interdum. Nullam vel justo vel nisi malesuada ultrices. Mauris mattis finibus ex eu commodo. Suspendisse consequat ex vel sagittis pharetra. Maecenas sit amet elementum massa. In hac habitasse platea dictumst.</p>
+			</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+			<div class="col-xs-12 add-content">
+				<h2>Time</h2>
+				<p>Nosso time lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac gravida odio. Fusce lacinia enim dolor, non maximus ante ultricies quis. Aenean malesuada sed velit ac volutpat. In nec congue purus. Donec suscipit orci id libero tempor, non dictum quam interdum. Nullam vel justo vel nisi malesuada ultrices. Mauris mattis finibus ex eu commodo. Suspendisse consequat ex vel sagittis pharetra. Maecenas sit amet elementum massa. Aenean malesuada sed velit ac volutpat. In nec congue purus. Donec suscipit orci id libero tempor, non dictum quam interdum. Nullam vel justo vel nisi malesuada ultrices. Mauris mattis finibus ex eu commodo. Suspendisse consequat ex vel sagittis pharetra. Maecenas sit amet elementum massa. In hac habitasse platea dictumst.</p>
+				<div class="team-wrapper">
+					<div class="col-sm-6 col-xs-12 team-member">
+						<img class="member-image"/>
+						<div class="member-content">
+							<h3></h3>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- <h1 class="page&#45;heading">Posts</h1> -->
 </div>
