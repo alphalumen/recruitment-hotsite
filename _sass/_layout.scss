@@ -43,6 +43,15 @@
 		padding: 25px 0;
 		color: #808180;
 
+		@media (max-width: $screen-xs-max) {
+			text-align: center;
+			
+			button {
+				float: none !important;
+				margin-top: 20px;
+			}
+		}
+
 		p {
 			margin: 0;
 		}
@@ -86,30 +95,27 @@
 					text-align: center;
 					position: relative;
 					padding: 0 30px;
-					height: 120px;
 					margin: 30px 0;
 					
 					.member-image {
 						height: 120px;
+						z-index: 2;
 						width: 120px;
 						border-radius: 100%;
-						right: 50%;
-						position: absolute;
 					}
 
 					.member-content {
 						background-color: #016b5c;
 						color: #ffffff;
-						width: 200px;
+						width: 100%;
+						margin-top: -20px;
 						padding: 10px 20px;
 						text-align: left;
-						position: absolute;
+						margin-right: auto;
+						display: block;
 						left: 50%;
 						top: 50%;
-						margin-left: -30px;
-						-ms-transform: translateY(-50%);
-    					-webkit-transform: translateY(-50%); 
-						transform: translateY(-50%);
+						margin-left: auto;;
 
 						h4 {
 							font-size: 16px;
