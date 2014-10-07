@@ -55,14 +55,6 @@
 		p {
 			margin: 0;
 		}
-
-		button {
-			background-color: #f06423 !important;
-			border: none;
-			float: right;
-			outline: none !important;
-			padding: 15px 30px;
-		}
 	}
 
 	.main-content {
@@ -182,5 +174,12 @@
 			font-family: "Chaparral Pro Bold Italic";
 		}
 	}
+}
+
+.btn-alpha {
+	background-color: #f06423 !important;
+	border: none;
+	outline: none !important;
+	padding: 15px 30px;
 }
 
